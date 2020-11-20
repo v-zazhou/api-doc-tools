@@ -7,28 +7,13 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'
-
-variables:
-  solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
-  buildConfiguration: 'Release'
+  vmImage: 'macos-latest'
 
 steps:
 - task: NuGetToolInstaller@1
-
-- task: NuGetCommand@2
   inputs:
-    restoreSolution: '$(solution)'
+    versionSpec: '4.5'
 
-- task: VSBuild@1
+- task: Bash@3
   inputs:
-    solution: '$(solution)'
-    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:DesktopBuildPackageLocation="$(build.artifactStagingDirectory)\WebApp.zip" /p:DeployIisAppPath="Default Web Site"'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
-
-- task: VSTest@2
-  inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+    arguments: 'make prepare all check CONFIGURATION=Debug'
