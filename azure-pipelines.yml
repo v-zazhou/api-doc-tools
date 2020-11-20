@@ -16,4 +16,5 @@ steps:
 
 - task: Bash@3
   inputs:
-    arguments: 'make prepare all check CONFIGURATION=Debug'
+    targetType: 'inline'
+    script: 'make prepare all check CONFIGURATION=Debug'
