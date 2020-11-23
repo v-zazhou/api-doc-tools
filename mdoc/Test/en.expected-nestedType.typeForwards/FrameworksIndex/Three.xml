@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Framework Name="Three">
   <Assemblies>
-    <Assembly Name="DocTest-nestedType-typeForwards-Second-First" Version="0.0.0.0" />
     <Assembly Name="DocTest-nestedType-typeForwards-Third-First" Version="0.0.0.0" />
+    <Assembly Name="DocTest-nestedType-typeForwards-Second-First" Version="0.0.0.0" />
   </Assemblies>
   <Namespace Name="TheNamespace">
     <Type Name="TheNamespace.TheClass" Id="T:TheNamespace.TheClass">

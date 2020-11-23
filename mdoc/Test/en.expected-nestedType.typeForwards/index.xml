@@ -10,7 +10,7 @@
         </Attribute>
       </Attributes>
     </Assembly>
-    <Assembly Name="DocTest-nestedType-typeForwards-Second-First" Version="0.0.0.0">
+    <Assembly Name="DocTest-nestedType-typeForwards-Third-First" Version="0.0.0.0">
       <Attributes>
         <Attribute>
           <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
@@ -20,7 +20,7 @@
         </Attribute>
       </Attributes>
     </Assembly>
-    <Assembly Name="DocTest-nestedType-typeForwards-Third-First" Version="0.0.0.0">
+    <Assembly Name="DocTest-nestedType-typeForwards-Second-First" Version="0.0.0.0">
       <Attributes>
         <Attribute>
           <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
