@@ -2,11 +2,11 @@
   <TypeSignature Language="C#" Value="public class TheClass" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TheClass extends System.Object" />
   <AssemblyInfo>
-    <AssemblyName>DocTest-typeForwards-First</AssemblyName>
+    <AssemblyName>DocTest-typeForwards-Second</AssemblyName>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
-    <AssemblyName>DocTest-typeForwards-Second</AssemblyName>
+    <AssemblyName>DocTest-typeForwards-First</AssemblyName>
     <AssemblyVersion>0.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
@@ -37,11 +37,11 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyName>DocTest-typeForwards-First</AssemblyName>
+        <AssemblyName>DocTest-typeForwards-Second</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
-        <AssemblyName>DocTest-typeForwards-Second</AssemblyName>
+        <AssemblyName>DocTest-typeForwards-First</AssemblyName>
         <AssemblyVersion>0.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
