@@ -12,6 +12,7 @@ pool:
   vmImage: 'macos-latest'
 
 variables:
+  buildConfiguration: 'Release'
   mdocPath: 'bin/$(buildConfiguration)'
   
 steps:
