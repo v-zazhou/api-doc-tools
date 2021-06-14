@@ -15,6 +15,7 @@ namespace Mono.Documentation {
 
 		private static void Main (string[] args)
 		{
+			//test
 			MDoc d = new MDoc ();
 			try {
 				d.Run (args);
